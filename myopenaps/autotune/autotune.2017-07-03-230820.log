@@ -1,0 +1,41 @@
+Grabbing NIGHTSCOUT treatments.json for date range...
+https://alexaps.azurewebsites.net/api/v1/treatments.json?find\[created_at\]\[$gte\]=2017-07-01T20:00+0300&find\[created_at\]\[$lte\]=2017-07-03T00:00+0300
+-rw-r--r-- 1 root root 144379 Jul  3 23:08 ns-treatments.json
+Grabbing NIGHTSCOUT entries/sgv.json for date range...
+https://alexaps.azurewebsites.net/api/v1/entries/sgv.json?find\[date\]\[$gte\]=1498942800000&find\[date\]\[$lte\]=1499029200000&count=1000
+-rw-r--r-- 1 root root 73201 Jul  3 23:08 ns-entries.2017-07-02.json
+Running 1 runs from 2017-07-02 to 2017-07-02
+cp: cannot stat ‘profile.json’: No such file or directory
+oref0-autotune-prep ns-treatments.json profile.json ns-entries.2017-07-02.json > autotune.1.2017-07-02.json
+Could not parse input data:  { [Error: ENOENT, no such file or directory 'profile.json']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'profile.json',
+  syscall: 'open' }
+oref0-autotune-core autotune.1.2017-07-02.json profile.json profile.pump.json > newprofile.1.2017-07-02.json
+Could not parse input data:  { [Error: ENOENT, no such file or directory 'profile.json']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'profile.json',
+  syscall: 'open' }
+
+Autotune pump profile recommendations:
+---------------------------------------------------------
+Recommendations Log File: /root/myopenaps/autotune/autotune_recommendations.log
+
+jq: /root/myopenaps/autotune/profile.pump.json: No such file or directory
+jq: /root/myopenaps/autotune/profile.pump.json: No such file or directory
+cat: /root/myopenaps/autotune/profile.pump.json: No such file or directory
+cat: /root/myopenaps/autotune/profile.pump.json: No such file or directory
+cat: /root/myopenaps/autotune/profile.pump.json: No such file or directory
+jq: error: Cannot iterate over null
+jq: error: Cannot iterate over null
+/usr/local/bin/oref0-autotune-recommends-report: line 68: printf: null: invalid number
+/usr/local/bin/oref0-autotune-recommends-report: line 69: [: !=: unary operator expected
+/usr/local/bin/oref0-autotune-recommends-report: line 72: printf: null: invalid number
+/usr/local/bin/oref0-autotune-recommends-report: line 74: printf: null: invalid number
+Parameter      | Current  | Autotune 
+-------------------------------------
+ISF            | 0.000    | 0.000    
+CSF            | n/a      | 0.000    
+Carb Ratio     | 0.000    | 0.000    
