@@ -7105,38 +7105,5 @@
     "_id": "5bdd7d37ae55d501a4d75023", 
     "type": "sgv", 
     "glucose": 180
-  }, 
-  {
-    "filtered": 188512, 
-    "direction": "Flat", 
-    "noise": 1, 
-    "sysTime": "2018-11-03T12:44:25.239+0200", 
-    "dateString": "2018-11-03T12:44:25.239000+02:00", 
-    "sgv": 180, 
-    "device": "xDrip-DexcomG5", 
-    "unfiltered": 193952, 
-    "delta": 4.097, 
-    "date": 1541241865239, 
-    "rssi": 100, 
-    "_id": "5bdd7c0bae55d501a4d742fa", 
-    "type": "sgv", 
-    "glucose": 180
-  }, 
-  {
-    "status": "Expired", 
-    "direction": "FortyFiveUp", 
-    "noise": 1, 
-    "trend": 3, 
-    "dateString": "2018-11-03T12:44:19.875000+02:00", 
-    "sgv": 192, 
-    "device": "404TPK", 
-    "state": "Stopped", 
-    "unfiltered": 193.952, 
-    "filtered": 188.512, 
-    "date": 1541241859875, 
-    "rssi": -92, 
-    "_id": "5bdd7c12ae55d501a4d7435b", 
-    "type": "sgv", 
-    "glucose": 192
   }
 ]
