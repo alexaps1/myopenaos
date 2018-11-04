@@ -1,5 +1,37 @@
 [
   {
+    "filtered": 140800, 
+    "direction": "Flat", 
+    "noise": 1, 
+    "sysTime": "2018-11-04T12:54:23.123+0200", 
+    "dateString": "2018-11-04T12:54:23.123000+02:00", 
+    "sgv": 126, 
+    "device": "xDrip-DexcomG5", 
+    "unfiltered": 141312, 
+    "delta": 0.067, 
+    "date": 1541328863123, 
+    "rssi": 100, 
+    "_id": "5bdecfe1ae55d501a4e5eca4", 
+    "type": "sgv", 
+    "glucose": 126
+  }, 
+  {
+    "filtered": 139648, 
+    "direction": "Flat", 
+    "noise": 1, 
+    "sysTime": "2018-11-04T12:49:22.721+0200", 
+    "dateString": "2018-11-04T12:49:22.721000+02:00", 
+    "sgv": 125, 
+    "device": "xDrip-DexcomG5", 
+    "unfiltered": 141248, 
+    "delta": 1.316, 
+    "date": 1541328562721, 
+    "rssi": 100, 
+    "_id": "5bdecebaae55d501a4e5e069", 
+    "type": "sgv", 
+    "glucose": 125
+  }, 
+  {
     "filtered": 134304, 
     "direction": "Flat", 
     "noise": 1, 
@@ -7089,21 +7121,5 @@
     "_id": "5bdd7f8fae55d501a4d768fd", 
     "type": "sgv", 
     "glucose": 181
-  }, 
-  {
-    "filtered": 190592, 
-    "direction": "Flat", 
-    "noise": 1, 
-    "sysTime": "2018-11-03T12:49:25.308+0200", 
-    "dateString": "2018-11-03T12:49:25.308000+02:00", 
-    "sgv": 180, 
-    "device": "xDrip-DexcomG5", 
-    "unfiltered": 194048, 
-    "delta": 0.1, 
-    "date": 1541242165308, 
-    "rssi": 100, 
-    "_id": "5bdd7d37ae55d501a4d75023", 
-    "type": "sgv", 
-    "glucose": 180
   }
 ]
