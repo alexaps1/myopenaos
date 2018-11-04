@@ -1272,5 +1272,37 @@
     "_id": "5bdec8d9ae55d501a4e5a32b", 
     "type": "sgv", 
     "glucose": 112
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
+    "sysTime": "2018-11-04T12:39:22.818+0200", 
+    "rssi": 100, 
+    "dateString": "2018-11-04T12:39:22.818000+02:00", 
+    "sgv": 123, 
+    "device": "xDrip-DexcomG5", 
+    "unfiltered": 138720, 
+    "delta": 2.46, 
+    "date": 1541327962818, 
+    "filtered": 134304, 
+    "_id": "5bdecc5dae55d501a4e5c79a", 
+    "type": "sgv", 
+    "glucose": 123
+  }, 
+  {
+    "direction": "FortyFiveUp", 
+    "noise": 1, 
+    "sysTime": "2018-11-04T12:34:22.226+0200", 
+    "rssi": 100, 
+    "dateString": "2018-11-04T12:34:22.226000+02:00", 
+    "sgv": 120, 
+    "device": "xDrip-DexcomG5", 
+    "unfiltered": 136352, 
+    "delta": 5.178, 
+    "date": 1541327662226, 
+    "filtered": 129584, 
+    "_id": "5bdecb30ae55d501a4e5bb95", 
+    "type": "sgv", 
+    "glucose": 120
   }
 ]
